@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MemoryJaem</string>
+    
+    <string name="already_won">You already won! Use the menu to play again.</string>
+    <string name="invalid_move">Invalid move!</string>
+    <string name="win">You won! Congratulations.</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="choose_size">Choose new size</string>
+
+    <string name="quit_game">Quit your current game?</string>
+    
+    <string name="refresh">Refresh</string>
+
+    <string name="pairs">Pairs: %1$d / %2$d</string>
+    <string name="moves">Moves: %1$d</string>
+
+    <string name="easy_moves">Easy: 4 x 2</string>
+    <string name="easy_pairs">Pairs: 0/4</string>
+    <string name="easy_option">Easy (4 x 2)</string>
+
+    <string name="medium_moves">Medium: 6 x 3</string>
+    <string name="medium_pairs">Pairs: 0/4</string>
+    <string name="medium_option">Medium (6 x 3)</string>
+
+    <string name="hard_moves">Hard: 6 x 4</string>
+    <string name="hard_pairs">Pairs: 0/12</string>
+    <string name="hard_option">Hard (6 x 4))</string>
+
+    <string name="memory_card">Memory card</string>
+</resources>
