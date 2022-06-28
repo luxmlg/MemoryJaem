@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var rvBoard: RecyclerView
     private lateinit var tvNumMoves: TextView
     private lateinit var tvNumPairs: TextView
-    private var gameName: String? = null
     private lateinit var memoryGame: MemoryGame
     private lateinit var adapter: MemoryBoardAdapter
     private var boardSize = BoardSize.EASY
@@ -80,7 +79,6 @@ class MainActivity : AppCompatActivity() {
                 R.id.rbMedium -> BoardSize.MEDIUM
                 else -> BoardSize.HARD
             }
-            gameName = null
             setupBoard()
         }
     }
@@ -96,7 +94,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupBoard() {
-        supportActionBar?.title = gameName ?: getString(R.string.app_name)
+        supportActionBar?.title = getString(R.string.app_name)
         memoryGame = MemoryGame(boardSize)
         when (boardSize) {
             BoardSize.EASY -> {
